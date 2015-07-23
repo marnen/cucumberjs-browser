@@ -33,7 +33,8 @@
     "test": "node node_modules/.bin/cucumber-js"
   },
   "dependencies": {
-    "cucumber": "~0.3.3",
+    "cucumber": "waiting for https://github.com/cucumber/cucumber-js/pull/373",
+    "cucumber": "git@github.com:lutzj82/cucumber-js.git#85fc30e132842289704d0b04f4a25a9908d2afd4",
     "browserify": "~3.24.11",
     "glob": "~3.2.8",
     "rimraf": "~2.2.6",
